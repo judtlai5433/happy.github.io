@@ -1,0 +1,21 @@
+
+main{
+    background-image:url(插圖芙芙.jpg);
+    background-attachment:fixed;
+    background-repeat: space;
+    background-position: center center;
+    background-clip: content-box;
+    background-size: contain;
+}
+article{
+    background:linear-gradient(350deg, rgba(0, 0, 255, 0.363), rgba(255, 192, 203, 0.308) )
+}
+table{
+    background:radial-gradient(at top,rgba(228, 137, 0, 0.938),rgba(37, 40, 209, 0.411),rgba(255, 190, 190, 0.808));
+}
+footer{
+    background:linear-gradient(270deg,black,pink) ;
+}
+::selection{
+    background-color: yellow;
+}
